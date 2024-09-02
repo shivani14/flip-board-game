@@ -1,10 +1,8 @@
 package com.kpit.flipboardgame.presentation.flipboard
 
-import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -69,7 +67,7 @@ fun BoardBox(item: FlipBoardBoxItem, toggleBox: () -> Unit) {
 fun TextBiggestRectangleSize(size: Int) {
     Text(
         text = stringResource(R.string.biggest_rectangle, size),
-        modifier = Modifier.padding(top = 8.dp), fontSize = 15.sp
+        modifier = Modifier.padding(top = 8.dp), fontSize = 20.sp
     )
 }
 
