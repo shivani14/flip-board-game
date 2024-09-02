@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FlipBoardGame</string>
+    <string name="biggest_rectangle">Biggest Rectangle Area: %1d</string>
+</resources>
